@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    background-color: black;
+  }
+  
+.cuadrito{
+      height: 100px;
+      width: 100px;
+      background-color: aquamarine;
+      border: 10px black;
+  }
+
+.contenedor1{
+  display: flex;
+  position: relative;
+  left: 50%;
+}

@@ -1,0 +1,30 @@
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-color: gray;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.box1{
+    background-color: white;
+    }
+
+.colcen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+.box2{
+    border: blue 4px solid;
+}
+
+
+

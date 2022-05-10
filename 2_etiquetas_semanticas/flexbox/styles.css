@@ -1,0 +1,13 @@
+.contenedor {
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: cyan;
+  }
+
+  p{
+      width: 300px;
+  }

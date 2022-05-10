@@ -1,0 +1,27 @@
+
+
+/* etiquetas de html */
+body {
+    margin: 40px;
+  }
+  
+  .cuadro{
+      height: 100px;
+      width: 100px;
+  }
+  
+  .rojo{
+      background-color: red;
+      
+  }
+  
+  .verde{
+      background-color: green;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+  }
+  
+  .amarillo{
+      background-color: yellow;
+  }

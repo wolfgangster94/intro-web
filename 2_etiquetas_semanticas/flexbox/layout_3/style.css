@@ -1,0 +1,53 @@
+
+.ele{
+    border: 10px black solid;
+    width: 100px;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+.subcol{
+    display: flex;
+    flex-direction: row;
+}
+
+.ele1, .ele7{
+    height: 100%;
+}
+
+.ele2, .subcol{
+    height: 80%;
+}
+
+.ele3, .ele6{
+    height: 20%;
+}
+
+.ele6{
+    width: 200px;
+}
+
+.amarillo{
+    background-color: yellow;
+}
+
+.verde{
+    background-color: green;
+}
+
+.naranja{
+    background-color: orange;
+}
+
+.rosa{
+    background-color: pink;
+}
+
+.azul{
+    background-color: blue;
+}

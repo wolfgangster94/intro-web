@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Apellidos primero">
+            <br>
+            <label for="edad">Edad</label>
+            <input type="number" name="edad" id="edad">
+            <br>
+            <textarea name="" id="" cols="16" rows="9"></textarea>
+            <br>
+        </fieldset>
+        <fieldset>
+            <label for=""> Lenguaje <br>
+                <input type="radio" name="lenguaje" value="javascript" id=""> javascript <br>
+                <input type="radio" name="lenguaje" value="ruby" id=""> ruby <br>
+                <input type="radio" name="lenguaje" value="python" id=""> python <br>
+            </label>
+        </fieldset>
+        <fieldset>
+            <label for="">
+                Aceptar Cookies
+                <input type="checkbox" name="cookies" id="cookes" checked>
+            </label><br>
+        </fieldset>
+        <fieldset> Frutas <br>
+            <input type="checkbox" name="frutas" value="peras" id="peras">peras <br>
+            <input type="checkbox" name="frutas" value="manzanas" id="manzanas"> manzanas <br>
+            <input type="checkbox" name="frutas" value="naranjas" id="naranjas">naranjas <br>
+            <input type="checkbox" name="frutas" value="platanos" id="platanos">platanos <br>
+        </fieldset>
+        <fieldset>
+            <input type="checkbox" name="" id="">
+            <select name="estados" id="estados">
+                <optgroup label="Zona A">
+                    <option value="Tamaulipas">Tamaulipas</option>
+                    <option value="Jalisco">Jalisco</option>
+                    <option value="CDMX">CDMX</option>
+                </optgroup>
+                <optgroup label="Zona B">
+                    <option value="Hidalgo">Hidalgo</option>
+                    <option value="EdoMex">EdoMex</option>
+                </optgroup>
+            </select><br>
+            <input type="range" name="valor" id="valor">
+        </fieldset>
+        <input type="button" name="" id="">
+        <input type="submit" value="either/or" name="" id="">
+    </form>
+</body>
+
+</html>

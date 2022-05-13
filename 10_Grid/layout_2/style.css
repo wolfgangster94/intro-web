@@ -1,0 +1,36 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    'header aside aside .'
+    'header main main section'
+    'header . footer footer'
+}
+
+.elemento{
+    text-align: center;
+    padding: 20px;
+    border: 1px pink solid;
+    background-color: rgb(114, 155, 171);
+}
+
+.header{
+    grid-area: header;
+}
+
+.aside{
+    grid-area: aside;
+}
+
+.main{
+    grid-area: main;
+}
+
+.section{
+    grid-area: section;
+}
+
+.footer{
+    grid-area: footer;
+}

@@ -1,0 +1,24 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 70% auto;
+    height: 500px;
+    background-color: maroon;
+    grid-template-areas:
+    'ele1 ele2 ele3 ele4 ele5'
+    'ele1 ele6 ele7 ele7 ele5';
+    gap: 10px;
+    padding: 10px;
+}
+
+.elemento{
+    border: 1px black solid;
+}
+
+.ele-1{ grid-area: ele1; background-color: yellow;}
+.ele-2{ grid-area: ele2; background-color: green;}
+.ele-3{ grid-area: ele3; background-color: orange;}
+.ele-4{ grid-area: ele4; background-color: blue;}
+.ele-5{ grid-area: ele5; background-color: pink;}
+.ele-6{ grid-area: ele6; background-color: orange;}
+.ele-7{ grid-area: ele7; background-color: yellow}
